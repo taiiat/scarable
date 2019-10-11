@@ -1,13 +1,13 @@
-### こんにちは！
+### Scalable funding of Bitcoin micropayment channel networks
 
 
-これはサンプルのスライド資料です。
+
 
 
 ---
 
 
-### 2枚目のスライド
+### Channel factory
 
 
 ---
