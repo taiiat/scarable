@@ -21,7 +21,7 @@
 ### Channel factory
 
 +++
-
+![alt](mpay1.png)
 
 
 ### おわり
