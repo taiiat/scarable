@@ -33,7 +33,6 @@
        サブチャネルで資金が不足した場合、新しいAllocationを作成
 ---
 
-
 ##  Leaving a group
 
 payment channel:ノードがクラッシュやオフライン
