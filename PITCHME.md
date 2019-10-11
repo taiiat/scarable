@@ -5,7 +5,7 @@
 
 
 ---
-### Introduction　
+## Introduction　
 - micropayment channelの課題
 
   -スケーラビリティ
@@ -18,25 +18,26 @@
 ---
 
 
-### Channel factory
+## Channel factory
 
 ![alt](mpay2.png)
 
-     ３人が参加し、ペアのペイメントチャネルを作っている。
+     ３人が参加し、ペアのペイメントチャネルを作る。
 ---
 
 
-### Allocation
+## Allocation
 
 ![alt](mpay4.png)
 
-       サブチャネルで資金が不足した場合、新しいAllocation TXを作成
+       サブチャネルで資金が不足した場合、新しいAllocationを作成
 ---
 
 
-###  Leaving a group
+##  Leaving a group
       相手のノードがクラッシュしたりオフラインとなったままでは決済ができない
-![alt](mpay6.png)
+      
+      Channel Factoryにおいても応答の無いノードがいると、新しいAllocationへの更新や応答の無いノードが参加しているサブチャネルのCommitmentの更新ができなくなる。
        
        まだアクティブな参加者が集まって新しい共有アカウントを作る方法がある。
  
