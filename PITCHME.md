@@ -26,9 +26,10 @@
 +++
 ### Allocation
 
-![alt](mpay2.png)
+![alt](mpay4.png)
 
-    Channel Factoryを閉じたい場合は、
+    サブチャネルのペイメントチャネルで資金が不足した場合、各アウトプットの残高を変更した新しいAllocationトランザクションを作成
+    
 
 
 ### おわり
