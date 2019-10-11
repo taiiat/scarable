@@ -5,7 +5,7 @@
 
 
 ---
-##### Introduction　
+### Introduction　
 - micropayment channelの課題
 
   -スケーラビリティ
@@ -18,10 +18,10 @@
 ---
 
 
-### 3枚目のスライド
+### Channel factory
 
++++
 
----
 
 
 ### おわり
