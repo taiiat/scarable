@@ -5,9 +5,7 @@
 
 
 ---
-
-
-### Channel factory
+# Channel factory
 
 
 ---
