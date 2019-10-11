@@ -40,7 +40,7 @@ payment channel:ノードがクラッシュやオフライン
 
 
 
-Channel FactoryでもAllocationへの更新やCommitmentの更新ができなくなる。|
+同様にAllocationやCommitmentの更新ができなくなる。|
 
 +++
 
@@ -50,7 +50,7 @@ Channel FactoryでもAllocationへの更新やCommitmentの更新ができなく
       
 ---
 
-### Combining channel factories
+## Combining channel factories
      
 
 ![alt](mpay7.png)
@@ -61,3 +61,5 @@ Channel FactoryでもAllocationへの更新やCommitmentの更新ができなく
 +++
 
 ### Evaluation
+
+
