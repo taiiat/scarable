@@ -36,12 +36,12 @@
 
 ##  Leaving a group
 
-payment channel:相手のノードがクラッシュしたりオフラインであると
+payment channel:ノードがクラッシュやオフライン
 決済できない
 
 
 
-Channel Factoryにおいても応答の無いノードがいると、Allocationへの更新やCommitmentの更新ができなくなる。|
+Channel FactoryでもAllocationへの更新やCommitmentの更新ができなくなる。|
 
 +++
 
