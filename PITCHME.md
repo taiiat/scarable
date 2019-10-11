@@ -20,7 +20,7 @@
 
 ### Channel factory
 
-![alt](mpay1.png)
+![alt](mpay2.png)
 
      ３人が参加し、ペアのペイメントチャネルを作っている。
 ---
@@ -36,7 +36,7 @@
 
 ###  Leaving a group
       相手のノードがクラッシュしたりオフラインとなったままでは決済ができない
-![alt](mpay4.png)
+![alt](mpay6.png)
        
        まだアクティブな参加者が集まって新しい共有アカウントを作る方法がある。
  
@@ -44,4 +44,13 @@
 ---
 
 ### Combining channel factories
+     
 
+![alt](mpay7.png)
+      
+      グループが大きいほど、ブロックチェーンスペースは節約できる
+      (オフチェーン決済の量が増える)
+  
++++
+
+### Evaluation
