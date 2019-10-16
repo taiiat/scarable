@@ -67,7 +67,9 @@ payment channel:ノードがクラッシュやオフライン
 #####  Evaluation 
   
   ESDCAに基づいたBlockchainコスト
+   
    ECDSA signature constitutes 72 bytes, 
+   
    a public key 33 bytes.
 
 
