@@ -111,25 +111,28 @@ evaluating the system with the used ECDSA signatures
    a public key :33 bytes.
 
 +++
-
-   p=number of parties and n=the number of subchannels. 
+#### Condition
+   p=number of parties n=the number of subchannels
    
-   The blockchain cost per subchannel:
    
-   $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
+   
++++
+   #### The blockchain cost per subchannel
+   
+   $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$
     
    $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 #### More concrete
 
-p=20 parties　,n=100 subchannelsとすると
+p=20 parties　,n=100 subchannels
 
-the blockchain cost of each channel is 42, 
+the blockchain cost of each channel is 42 bytes, 
 
 つまり、もともとの10%にまで削減
 
-さらにより多いグループを作ればコストはより削減できる！
+より多いグループだとコストはさらに削減！
 
 ---
 
