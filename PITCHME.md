@@ -27,7 +27,7 @@
 
 
 #### Allocation
-<img src="mpay8.png" width="00">
+<img src="mpay8.png" width="400">
 
 
 
