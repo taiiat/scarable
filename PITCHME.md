@@ -22,7 +22,7 @@
 
 ![alt](mpay2.png)
 
-     ３人が参加し、ペアのペイメントチャネルを作る。
+     ３人が参加しペアのペイメントチャネルを作成
 ---
 
 
@@ -31,7 +31,7 @@
 
 
 
-各マイクロペイメントチャネルのキャパシティもオフチェーンで動的に変更
+各MPCのキャパシティがオフチェーンで動的に変更
 
 Blockchainに書き込む回数がへる。
 
@@ -89,9 +89,9 @@ payment channel:
   
    with the used ECDSA signatures
    
-    ECDSA signature:72bytes, 
+   ECDSA signature:72bytes, 
    
-    a public key:33 bytes.
+   a public key:33 bytes.
 
 +++
 #### calculate
@@ -99,11 +99,9 @@ payment channel:
    p=number of parties and n=the number of subchannels. 
    
    The blockchain cost per subchannel:
-    $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
-
-
-
-    $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
+   $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
+    
+   $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 
