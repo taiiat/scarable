@@ -8,7 +8,7 @@
 #### Introduction　
 - micropayment channelの課題
 
-  -スケーラビリティ
+  -スケーラビリティ問題
   
   -チャネル内で決済できる金額の上限
 
@@ -53,8 +53,9 @@ $O(p^{2})$回の通信のオーバーヘッドが発生
 
 ##  Leaving a group
 
-payment channel:ノードがクラッシュやオフライン
-決済できない
+payment channel:
+
+ノードがクラッシュやオフラインだと決済できない
 
 
 
@@ -62,7 +63,7 @@ payment channel:ノードがクラッシュやオフライン
 
 +++
 
-アクティブな参加者で新しい共有アカウントを作る
+アクティブな参加者で新しいアカウントを作成
 
 ![alt](mpay6.png) 
       
@@ -84,18 +85,25 @@ payment channel:ノードがクラッシュやオフライン
 
 ####  Evaluation 
   
-  ESDCAに基づいたBlockchain　cost
+ 　evaluating the system
+  
+   with the used ECDSA signatures
    
-   ECDSA signature constitutes 72 bytes, 
+    ECDSA signature:72bytes, 
    
-   a public key 33 bytes.
+    a public key:33 bytes.
 
 +++
 #### calculate
 
-$$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
+   p=number of parties and n=the number of subchannels. 
+   
+   The blockchain cost per subchannel:
+    $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
 
-$$BC_{simple}=33\times2\times2+72\times2\times2=420$$
+
+
+    $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 
