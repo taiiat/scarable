@@ -72,10 +72,12 @@ payment channel:
 ![alt](mpay6.png) 
       
 ---
-#### Including a cold wallet in a channel
+#### Including a cold wallet & hot wallet in a channel
 
-
+ 
 <img src="mpay10.png" width="400">
+
+通常はofflineであるがグループ内でonelineにすることも可能
 
 ---
 
