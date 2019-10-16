@@ -102,30 +102,28 @@ Allocationのときのみグループ内でcoldをオンライン
   
 
 
-####  Evaluation 
-  
- 　evaluating the system
-  
-   with the used ECDSA signatures
+###  Evaluation of Channel Factory 
+
+evaluating the system with the used ECDSA signatures
    
-   ECDSA signature:72bytes, 
+   ECDSA signature :72bytes, 
    
-   a public key:33 bytes.
+   a public key :33 bytes.
 
 +++
-#### calculate
 
    p=number of parties and n=the number of subchannels. 
    
    The blockchain cost per subchannel:
+   
    $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
     
    $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
+#### More concrete
 
-
-p=20 parties and n=100 subchannelsとすると
+p=20 parties　,n=100 subchannelsとすると
 
 the blockchain cost of each channel is 42, 
 
@@ -152,12 +150,12 @@ Public key combined with Signature
 +++
 ### Schnorr signatures
 
-sign for hock and settlemrnt=2
+signature for hock and settlemrnt=2
 
 Pub key for each output and 
 
 
-public key for 
+Pub key combined with signature   
 
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
