@@ -64,7 +64,7 @@ payment channel:ノードがクラッシュやオフライン
   
 
 
-#####  Evaluation 
+######  Evaluation 
   
   ESDCAに基づいたBlockchainコスト
    
@@ -72,7 +72,7 @@ payment channel:ノードがクラッシュやオフライン
    
    a public key 33 bytes.
 
-
++++
 $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
 
 $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
@@ -85,11 +85,33 @@ the blockchain cost of each channel is 42,
 
 つまり、もともとの10%にまで削減
 
-
 さらにより多いグループを作ればコストはより削減できる！
 
+---
 
-###
+##### With Schnorr signatures
+
+only one signature is necessary to sign all inputs of the hook transaction, 
+
+and one combined public key can be used for the output.
+
+ed25519 curve
+
+a public key uses 32 bytes 
+
+a signature 64 bytes
+
++++
+Channel factory:
+
+$$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
+
+One-to-one channels without a channel factory:
+
+$$BC_{simple,schnorr}=33\times3+64\times2=224$$
+
+
+---
 
 
 
