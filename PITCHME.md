@@ -50,16 +50,19 @@ payment channel:ノードがクラッシュやオフライン
       
 ---
 
-## Combining channel factories
+### Combining channel factories
      
 
 ![alt](mpay7.png)
       
-      グループが大きいほど、ブロックチェーンスペースは節約できる
-      (オフチェーン決済の量が増える)
   
 +++
 
+      グループが大きいほど、ブロックチェーンスペースは節約できる
+      (オフチェーン決済の量が増える)
+---      
+  
 ### Evaluation
 
+　$ F = \frac{d^2 x}{d t^2} $
 
