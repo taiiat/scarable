@@ -40,7 +40,11 @@ Blockchainに書き込む回数がへる。
 ##### Allocationの更新
 ![alt](mpay4.png)
 
-相対的ロックで最新のAllocationトランザクションを保証
+(相対的ロック)
+
+最新のAllocationトランザクションを保証
+
++++
 
 参加者の総数を$p$とした場合、
 
@@ -55,11 +59,11 @@ $O(p^{2})$回の通信のオーバーヘッドが発生
 
 payment channel:
 
-ノードがクラッシュやオフラインだと決済できない
+ノードがクラッシュやオフラインだと決済不可
 
 
 
-同様にAllocationやCommitmentの更新ができなくなる。
+同様にAllocationやCommitmentの更新も不可。
 
 +++
 
@@ -67,6 +71,12 @@ payment channel:
 
 ![alt](mpay6.png) 
       
+---
+#### Including a cold wallet in a channel
+
+
+<img src="mpay10.png" width="400">
+
 ---
 
 ### Combining channel factories
