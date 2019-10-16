@@ -64,5 +64,5 @@ payment channel:ノードがクラッシュやオフライン
   
 ### Evaluation
 
-　$ F = \frac{d^2 x}{d t^2} $
+$$ F = \frac{d^2 x}{d t^2} $$
 
