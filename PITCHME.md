@@ -55,7 +55,7 @@ $O(p^{2})$回の通信のオーバーヘッドが発生
 
 ---
 
-##  Leaving a group
+###  Leaving a group
 
 payment channel:
 
@@ -78,6 +78,7 @@ payment channel:
 <img src="mpay1２.png" width="400">
 
 coldから資金を引っ張りたいとき
+
 
 Allocationのときのみグループ内でオンライン
 ---
