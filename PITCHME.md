@@ -72,13 +72,14 @@ payment channel:
 ![alt](mpay6.png) 
       
 ---
-#### Including a cold wallet & hot wallet in a channel
+#### Including a cold & hot wallet in a channel
 
  
-<img src="mpay10.png" width="400">
+<img src="mpay1２.png" width="400">
 
-通常はofflineであるがグループ内でonelineにすることも可能
+coldから資金を引っ張りたいとき
 
+Allocationのときのみグループ内でオンライン
 ---
 
 ### Combining channel factories
@@ -153,7 +154,7 @@ $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 ---
 ### Conclusion
 
-より多く効率的にMPCを作成可能
+より多く効率的にMPCの取引可能
 
 ただし
 
