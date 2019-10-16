@@ -26,7 +26,7 @@
 ---
 
 
-#### Allocation
+#### Allocationの効果
 <img src="mpay8.png" width="400">
 
 
@@ -72,13 +72,14 @@ payment channel:
 ### Combining channel factories
      
 
-![alt](mpay7.png)
-      
+<img src="mpay8.png" width="５00">
+   
+   グループが大きいほど、ブロックチェーンスペースは節約できる
+      (オフチェーン決済の量が増える)   
   
 +++
 
-      グループが大きいほど、ブロックチェーンスペースは節約できる
-      (オフチェーン決済の量が増える)
+      
 ---      
   
 
@@ -135,7 +136,8 @@ $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 
 
 ---
-###
+### Conclusion
+
 
 
 
