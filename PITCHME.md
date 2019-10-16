@@ -75,7 +75,7 @@ payment channel:
 #### Including a cold & hot wallet in a channel
 
  
-<img src="mpay1２.png" width="600">
+<img src="mpay1２.png" width="800">
 
 coldから資金を引っ張りたいとき
 
