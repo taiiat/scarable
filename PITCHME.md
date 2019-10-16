@@ -91,9 +91,10 @@ the blockchain cost of each channel is 42,
 
 ##### With Schnorr signatures
 
-only one signature is necessary to sign all inputs of the hook transaction, 
+only one signature is necessary
 
-and one combined public key can be used for the output.
+to sign all inputs of the hook transaction, 
+
 
 ed25519 curve
 
@@ -106,7 +107,8 @@ Channel factory:
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
 
-One-to-one channels without a channel factory:
+
+without a channel factory:
 
 $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 
