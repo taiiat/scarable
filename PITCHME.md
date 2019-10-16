@@ -77,10 +77,21 @@ $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 
-p=20 parties and n=100 subchannels, 
-the blockchain cost of each channel is 42, which is 10% of the original cost.
+p=20 parties and n=100 subchannels,
+
+the blockchain cost of each channel is 42, 
+
+つまり、もともとの10%にまで削減
+
+
+さらにより多いグループを作ればコストはより削減できる！
+
+
+###
 
 
 
----
-### slide 3
+
+
+
+
