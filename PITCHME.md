@@ -72,14 +72,14 @@ payment channel:
 ### Combining channel factories
      
 
-<img src="mpay8.png" width="５00">
+<img src="mpay8.png" width="400">
    
    グループが大きいほど、ブロックチェーンスペースは節約できる
       (オフチェーン決済の量が増える)   
   
 +++
 
-      
+  <img src="mpay9.png" width="400">
 ---      
   
 
@@ -126,7 +126,7 @@ a public key uses 32 bytes
 only one  signature 64 bytes
 
 +++
-Schnorr signatures
+### Schnorr signatures
 
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
