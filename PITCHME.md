@@ -75,11 +75,12 @@ payment channel:
 #### Including a cold & hot wallet in a channel
 
  
-<img src="mpay13.png" width="800">
+<img src="mpay13.png" width="600">
 
 coldから資金を引っ張りたいとき
 
 Allocationのときのみグループ内でcoldをオンライン
+
 ---
 
 ### Combining channel factories
@@ -142,8 +143,21 @@ a public key uses 32 bytes
 
 only one  signature 64 bytes
 
+Signature for hock and settle
+
+Pub key for each output and
+
+Public key combined with Signature
+
 +++
 ### Schnorr signatures
+
+sign for hock and settlemrnt=2
+
+Pub key for each output and 
+
+
+public key for 
 
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
