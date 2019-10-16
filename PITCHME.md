@@ -65,10 +65,21 @@ payment channel:ノードがクラッシュやオフライン
 
 
 #####  Evaluation 
+  
+  ESDCAに基づいたBlockchainコスト
+   ECDSA signature constitutes 72 bytes, 
+   a public key 33 bytes.
 
 
+$$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
 
-$$BC(p,n)=\frac{33　\times 2　\times p +72 \times 2 \times p}{n}$$
+$$BC_{simple}=33\times2\times2+72\times2\times2=420$$
+
++++
+
+p=20 parties and n=100 subchannels, 
+the blockchain cost of each channel is 42, which is 10% of the original cost.
+
 
 
 ---
