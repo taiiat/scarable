@@ -27,8 +27,9 @@
 
 
 #### Allocation
+<img src="mpay8.png" width="00">
 
-![alt](mpay8.png)
+
 
 各マイクロペイメントチャネルのキャパシティもオフチェーンで動的に変更できる
 
@@ -88,13 +89,16 @@ payment channel:ノードがクラッシュやオフライン
    a public key 33 bytes.
 
 +++
+#### calculate
+
 $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}$$
 
 $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 
-p=20 parties and n=100 subchannels,
+
+p=20 parties and n=100 subchannelsとすると
 
 the blockchain cost of each channel is 42, 
 
