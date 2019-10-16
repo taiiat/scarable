@@ -75,12 +75,11 @@ payment channel:
 #### Including a cold & hot wallet in a channel
 
  
-<img src="mpay1２.png" width="800">
+<img src="mpay13.png" width="800">
 
 coldから資金を引っ張りたいとき
 
-
-Allocationのときのみグループ内でオンライン
+Allocationのときのみグループ内でcoldをオンライン
 ---
 
 ### Combining channel factories
@@ -97,6 +96,7 @@ Allocationのときのみグループ内でオンライン
   <img src="mpay9.png" width="600">
   
   共通のノードの役割は新たなビジネスになる可能性
+
 ---      
   
 
