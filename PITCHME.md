@@ -72,14 +72,14 @@ payment channel:
 ### Combining channel factories
      
 
-<img src="mpay9.png" width="400">
+<img src="mpay7.png" width="400">
    
-   グループが大きいほど、ブロックチェーンスペースは節約できる
-      (オフチェーン決済の量が増える)   
+   グループが大きいほど、BCスペースは節約できる
+   (オフチェーン決済の量が増える)   
   
 +++
 
-  <img src="mpay8.png" width="500">
+  <img src="mpay9.png" width="600">
 ---      
   
 
