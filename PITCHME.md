@@ -110,9 +110,9 @@ evaluating the system with the used ECDSA signatures
    
    a public key :33 bytes.
 
-+++
-#### Condition
-   p=number of parties n=the number of subchannels
+   p=number of parties 
+   
+   n=the number of subchannels
    
    
    
@@ -121,22 +121,23 @@ evaluating the system with the used ECDSA signatures
    
    $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$
     
+   
    $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
-#### More concrete
+### More concrete
 
-p=20 parties　,n=100 subchannels
+p=20 parties　n=100 subchannels
 
-the blockchain cost of each channel is 42 bytes, 
+the blockchain cost of each channel:42 bytes
 
-つまり、もともとの10%にまで削減
+もともとの420の10%にまで削減
 
 より多いグループだとコストはさらに削減！
 
 ---
 
-##### With Schnorr signatures
+### With Schnorr signatures
  
 ed25519 curveに基づくBlockchain cost
 
