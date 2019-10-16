@@ -62,11 +62,15 @@ payment channel:ノードがクラッシュやオフライン
       (オフチェーン決済の量が増える)
 ---      
   
-### Evaluation
+@snap[north span-100]
+##### The Cauchy-Schwarz Inequality
+@math
 `\[
 \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 \]`
+@mathend
+@snapend
 
 ---
 ### slide 3
