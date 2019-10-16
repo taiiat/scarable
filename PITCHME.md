@@ -28,13 +28,14 @@
 
 #### Allocation
 
+
+
+
++++
+##### Allocationの更新
 ![alt](mpay4.png)
 
-       サブチャネルで資金が不足した場合、新しいAllocationを作成
----
-##### Allocationの更新
-
-
+Allocationを使うことで
 
 ---
 
