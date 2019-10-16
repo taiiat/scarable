@@ -1,11 +1,11 @@
-### Scalable funding of Bitcoin micropayment channel networks
+#### Scalable funding of Bitcoin micropayment channel networks
 
 
 
 
 
 ---
-## Introduction　
+#### Introduction　
 - micropayment channelの課題
 
   -スケーラビリティ
@@ -18,7 +18,7 @@
 ---
 
 
-## Channel factory
+#### Channel factory
 
 ![alt](mpay2.png)
 
@@ -26,11 +26,16 @@
 ---
 
 
-## Allocation
+#### Allocation
 
 ![alt](mpay4.png)
 
        サブチャネルで資金が不足した場合、新しいAllocationを作成
+---
+##### Allocationの更新
+
+
+
 ---
 
 ##  Leaving a group
@@ -40,7 +45,7 @@ payment channel:ノードがクラッシュやオフライン
 
 
 
-同様にAllocationやCommitmentの更新ができなくなる。|
+同様にAllocationやCommitmentの更新ができなくなる。
 
 +++
 
@@ -64,9 +69,9 @@ payment channel:ノードがクラッシュやオフライン
   
 
 
-######  Evaluation 
+####  Evaluation 
   
-  ESDCAに基づいたBlockchainコスト
+  ESDCAに基づいたBlockchain　cost
    
    ECDSA signature constitutes 72 bytes, 
    
@@ -90,31 +95,25 @@ the blockchain cost of each channel is 42,
 ---
 
 ##### With Schnorr signatures
-
-only one signature is necessary
-
-to sign all inputs of the hook transaction, 
-
-
-ed25519 curve
+ 
+ed25519 curveに基づくBlockchain cost
 
 a public key uses 32 bytes 
 
-a signature 64 bytes
+only one  signature 64 bytes
 
 +++
-Channel factory:
+Schnorr signatures
+
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
 
-
-without a channel factory:
 
 $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 
 
 ---
-
+###
 
 
 
