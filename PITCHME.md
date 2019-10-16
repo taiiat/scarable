@@ -68,7 +68,7 @@ payment channel:ノードがクラッシュやオフライン
 
 
 
-$$BC(p,n)=\frac{33　\times 2　\times p +72 \times 2 \times p}{n}
+$$BC(p,n)=\frac{33　\times 2　\times p +72 \times 2 \times p}{n}$$
 
 
 ---
