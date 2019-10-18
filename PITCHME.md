@@ -6,7 +6,7 @@
 
 ---
 ### Introduction　
-- micropayment channel networks
+micropayment channel networks
   
   <img src="mpay7.png" width="400">
   
