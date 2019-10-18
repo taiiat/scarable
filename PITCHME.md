@@ -55,7 +55,7 @@
 
 
 
--同様にAllocationやCommitmentの更新も不可。|
+- 同様にAllocationやCommitmentの更新も不可。|
 
 +++
 
@@ -131,7 +131,7 @@ the blockchain cost of each channel:42 bytes
 
 ### With Schnorr signatures
  
-- ed25519 curveに基づくBlockchain cost
+- Blockchain cost based on ed25519 curve
 
   - A public key uses 32 bytes 
 
@@ -139,18 +139,18 @@ the blockchain cost of each channel:42 bytes
 
   - Signature for hock and settle=2
 
-  - Pub key for each output and
+  - Pub key for each output =p
 
-  - Public key combined with Signature
+  - Public key combined with Signature=1
 
 +++
 ### Schnorr signatures
 
   - Signature for hock and settle=2
 
-  - Pub key for each output and
+  - Pub key for each output and=p
 
-  - Public key combined with Signature
+  - Public key combined with Signature=1
 
 
 
@@ -168,9 +168,10 @@ $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 
 ただし
 
-直接の取引相手ではない第三者によって
+- 直接の取引相手ではない第三者によってチャネルが閉じられるリスク |
+  - - しかし連帯責任で誰も得しない |
 
-チャネルが閉じられるリスクが生じる
+- ある程度の参加者を集める必要あり　|
 
 
 
