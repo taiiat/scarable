@@ -67,7 +67,7 @@
 ### Including a cold & hot wallet in a channel
 
  
-<img src="mpay13.png" width="500">
+<img src="mpay13.png" width="450">
 
 coldから資金を引っ張りたいとき
 
