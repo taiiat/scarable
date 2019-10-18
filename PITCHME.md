@@ -8,6 +8,11 @@
 ### Introduction　
 - micropayment channel networks
   
+  <img src="mpay7.png" width="400">
+  
+  
+  Fundingと最後のCommitmentをraodcast
+  
   
 
 
@@ -20,6 +25,7 @@
   - スケーラビリティ問題 | 
   
   - チャネル内で決済できる金額の上限 |
+     - それによって起こる無駄な手数料
 
 
 
@@ -32,6 +38,15 @@
 ![alt](mpay2.png)
 
      ３人が参加しペアのペイメントチャネルを作成
+     
++++
+- Hock:チャネルに参加する資金をマルチシグにロックするTx
+
+- Allocation:Hock→fundingに割当
+
+-Commitment:ここでは可変である(次説明)
+     
+     
 ---
 
 
@@ -40,7 +55,7 @@
 
 
 
-- 各MPCの上限がオフチェーンで動的に変更 | 
+- 各MPCの上限までもオフチェーンで動的に変更 | 
 
 - Blockchainに書き込む回数がへる | 
 
