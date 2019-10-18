@@ -45,12 +45,12 @@
 最新のAllocationトランザクションを保証
 
 +++
-
+#### Problem
 参加者の総数を$p$とした場合、
 
 $O(p^{2})$回の通信のオーバーヘッドが発生
 
-リーダーを置くことで$O(p)$まで減少できる。
+  →リーダーを置くことで$O(p)$まで減少できる。
 
 
 ---
@@ -106,13 +106,13 @@ Allocationのときのみグループ内でcoldをオンライン
 
 evaluating the system with the used ECDSA signatures
    
-   ECDSA signature :72bytes, 
+   - ECDSA signature :72bytes, 
    
-   a public key :33 bytes.
+   - a public key :33 bytes.
 
-   p=number of parties 
+   - p=number of parties 
    
-   n=the number of subchannels
+   - n=the number of subchannels
    
    
    
@@ -139,17 +139,17 @@ the blockchain cost of each channel:42 bytes
 
 ### With Schnorr signatures
  
-ed25519 curveに基づくBlockchain cost
+- ed25519 curveに基づくBlockchain cost
 
-A public key uses 32 bytes 
+  - A public key uses 32 bytes 
 
-Only one  signature 64 bytes
+  - Only one  signature 64 bytes
 
-Signature for hock and settle=2
+  - Signature for hock and settle=2
 
-Pub key for each output and
+  - Pub key for each output and
 
-Public key combined with Signature
+  - Public key combined with Signature
 
 +++
 ### Schnorr signatures
