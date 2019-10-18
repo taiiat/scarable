@@ -8,9 +8,9 @@
 #### Introduction　
 - micropayment channelの課題
 
-  -スケーラビリティ問題|
+  *スケーラビリティ問題
   
-  -チャネル内で決済できる金額の上限|
+  *チャネル内で決済できる金額の上限
 
 
 
@@ -31,9 +31,9 @@
 
 
 
-各MPCのキャパシティがオフチェーンで動的に変更
+1.各MPCのキャパシティがオフチェーンで動的に変更
 
-Blockchainに書き込む回数がへる。
+2.Blockchainに書き込む回数がへる。
 
 
 +++
@@ -50,16 +50,16 @@ Blockchainに書き込む回数がへる。
 
 $O(p^{2})$回の通信のオーバーヘッドが発生
 
-しかしリーダーを置くことで$O(p)$まで減少できる。
+リーダーを置くことで$O(p)$まで減少できる。
 
 
 ---
 
 ###  Leaving a group
 
-payment channel:
+従来のpayment channel
 
-ノードがクラッシュやオフラインだと決済不可
+  ノードがクラッシュやオフラインだと決済不可
 
 
 
@@ -141,11 +141,11 @@ the blockchain cost of each channel:42 bytes
  
 ed25519 curveに基づくBlockchain cost
 
-a public key uses 32 bytes 
+A public key uses 32 bytes 
 
-only one  signature 64 bytes
+Only one  signature 64 bytes
 
-Signature for hock and settle
+Signature for hock and settle=2
 
 Pub key for each output and
 
@@ -154,12 +154,6 @@ Public key combined with Signature
 +++
 ### Schnorr signatures
 
-signature for hock and settlemrnt=2
-
-Pub key for each output and 
-
-
-Pub key combined with signature   
 
 
 $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$
