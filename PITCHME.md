@@ -63,7 +63,7 @@ $O(p^{2})$回の通信のオーバーヘッドが発生
 
 
 
-同様にAllocationやCommitmentの更新も不可。
+-同様にAllocationやCommitmentの更新も不可。|
 
 +++
 
