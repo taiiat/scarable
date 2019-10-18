@@ -18,7 +18,7 @@
 ---
 
 
-#### Channel factory
+### Channel factory
 
 ![alt](mpay2.png)
 
@@ -64,7 +64,7 @@
 ![alt](mpay6.png) 
       
 ---
-#### Including a cold & hot wallet in a channel
+### Including a cold & hot wallet in a channel
 
  
 <img src="mpay13.png" width="600">
@@ -78,7 +78,7 @@ Allocationのときのみグループ内でcoldをオンライン
 ### Combining channel factories
      
 
-<img src="mpay7.png" width="400">
+<img src="mpay7.png" width="00">
    
    グループが大きいほど、BCスペースを節約
    
@@ -88,7 +88,7 @@ Allocationのときのみグループ内でcoldをオンライン
 
   <img src="mpay9.png" width="600">
   
-  共通のノードの役割は新たなビジネスになる可能性
+  共通のノードの役割は新たなビジネスになるか
 
 ---      
   
@@ -110,6 +110,10 @@ Allocationのときのみグループ内でcoldをオンライン
    
 +++
    #### The blockchain cost per subchannel
+   
+   - p=number of parties 
+   
+   - n=the number of subchannels
    
    $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$
     
@@ -169,7 +173,7 @@ $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 ただし
 
 - 直接の取引相手ではない第三者によってチャネルが閉じられるリスク |
-  - - しかし連帯責任で誰も得しない |
+  -  しかし連帯責任で誰も得しない |
 
 - ある程度の参加者を集める必要あり　|
 
