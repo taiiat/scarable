@@ -51,7 +51,7 @@ micropayment channel networks
      
 ---
 
-co
+
 #### Allocationの効果
 <img src="mpay8.png" width="400">
 
