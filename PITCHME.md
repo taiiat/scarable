@@ -115,8 +115,9 @@ Allocationのときのみグループ内でcoldをオンライン
 
 - n=the number of subchannels
  
- $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$  
- $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
+ - $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$
+ 
+ - $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
 ### More concrete
@@ -157,8 +158,9 @@ the blockchain cost of each channel:42 bytes
 
 
 
-$$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$   
-$$BC_{simple,schnorr}=33\times3+64\times2=224$$
+- $$BC_{schnorr}(p,n)=\frac{32\times(p+1) +64\times 2}{n}$$   
+
+- $$BC_{simple,schnorr}=33\times3+64\times2=224$$
 
 
 ---
