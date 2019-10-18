@@ -52,7 +52,7 @@ micropayment channel networks
 ---
 
 
-#### Allocationの効果
+#### The effect of Allocation
 <img src="mpay8.png" width="400">
 
 
@@ -63,7 +63,7 @@ micropayment channel networks
 
 
 +++
-##### Allocationの更新
+##### Replaceable Allocation
 ![alt](mpay4.png)
 
 (相対的ロック)
