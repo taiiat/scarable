@@ -11,7 +11,7 @@
   <img src="mpay7.png" width="400">
   
   
-  Fundingと最後のCommitmentをraodcast
+  Fundingと最後のCommitmentをBraodcast
   
   
 
@@ -25,7 +25,7 @@
   - スケーラビリティ問題 | 
   
   - チャネル内で決済できる金額の上限 |
-     - それによって起こる無駄な手数料
+     - それによって起こる無駄な手数料 |
 
 
 
@@ -42,14 +42,16 @@
 +++
 - Hock:チャネルに参加する資金をマルチシグにロックするTx
 
-- Allocation:Hock→fundingに割当
+- Allocation:Hock　→　fundingに割当
 
--Commitment:ここでは可変である(次説明)
+- Commitment:Allocationのため可変
+
+
      
      
 ---
 
-
+co
 #### Allocationの効果
 <img src="mpay8.png" width="400">
 
@@ -67,6 +69,17 @@
 (相対的ロック)
 
 最新のAllocationトランザクションを保証
+
+---
+#### Settlement
+![alt](mpay5.png)
+
+commitmmentの最終状態
+
+Hockと共にBroadcastするとこのCFは閉じられる
+
+
+
 
 
 ---
