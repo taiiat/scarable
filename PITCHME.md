@@ -127,7 +127,9 @@ Allocationのときのみグループ内でcoldをオンライン
 +++
 ### More concrete
 
-p=20 parties　n=100 subchannels
+- p=20 parties 
+
+- n=100 subchannels 
 
 the blockchain cost of each channel:42 bytes
 
