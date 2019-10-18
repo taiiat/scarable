@@ -31,9 +31,9 @@
 
 
 
-- 各MPCの上限がオフチェーンで動的に変更
+- 各MPCの上限がオフチェーンで動的に変更 | 
 
-- Blockchainに書き込む回数がへる。
+- Blockchainに書き込む回数がへる。 | 
 
 
 +++
@@ -104,7 +104,7 @@ Allocationのときのみグループ内でcoldをオンライン
 
 ###  Evaluation of Channel Factory 
 
-evaluating the system with the used ECDSA signatures
+- evaluating the system with the used ECDSA signatures
    
    - ECDSA signature :72bytes, 
    
