@@ -78,7 +78,7 @@ Allocationのときのみグループ内でcoldをオンライン
 ### Combining channel factories
      
 
-<img src="mpay7.png" width="600">
+<img src="mpay7.png" width="500">
    
    グループが大きいほど、BCスペースを節約
    
