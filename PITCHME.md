@@ -5,8 +5,17 @@
 
 
 ---
-#### Introduction　
-- micropayment channelの課題
+### Introduction　
+- micropayment channel networks
+  
+  
+
+
+
+
+
++++
+### micropayment channelの課題
 
   - スケーラビリティ問題 | 
   
