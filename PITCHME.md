@@ -44,16 +44,6 @@
 
 最新のAllocationトランザクションを保証
 
-+++
-### Problem
-参加者の総数を$p$とした場合、
-
-$O(p^{2})$回の通信のオーバーヘッドが発生
-                
-#### Solution  
-   
-   - リーダーを置くことで$O(p)$まで減少できる。 |
-
 
 ---
 
@@ -155,6 +145,13 @@ the blockchain cost of each channel:42 bytes
 
 +++
 ### Schnorr signatures
+
+  - Signature for hock and settle=2
+
+  - Pub key for each output and
+
+  - Public key combined with Signature
+
 
 
 
