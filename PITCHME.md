@@ -115,7 +115,7 @@ Allocationのときのみグループ内でcoldをオンライン
 
 - n=the number of subchannels
  
- - $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$
+ - $$BC(p,n)=\frac{33\times2\times p +72 \times 2 \times p}{n}=210\times \frac{p}{n}$$  
  - $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
 
 +++
