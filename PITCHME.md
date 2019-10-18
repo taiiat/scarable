@@ -40,9 +40,9 @@ micropayment channel networks
      ３人が参加しペアのペイメントチャネルを作成
      
 +++
-- Hock:チャネルに参加する資金をマルチシグにロックするTx
+- Hock:複数資金をマルチシグにロックするTx
 
-- Allocation:Hock　→　fundingに割当
+- Allocation:HockからFundingに割当
 
 - Commitment:Allocationのため可変
 
