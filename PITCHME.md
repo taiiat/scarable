@@ -114,7 +114,7 @@ Allocationのときのみグループ内でcoldをオンライン
 - p=number of parties 
 
 - n=the number of subchannels
-<div style="text-align: left;">
+
 
 
  
@@ -122,7 +122,7 @@ Allocationのときのみグループ内でcoldをオンライン
  
  $$BC_{simple}=33\times2\times2+72\times2\times2=420$$
  
- </div>
+
 
 +++
 ### More concrete
