@@ -114,7 +114,7 @@ Allocationのときのみグループ内でcoldをオンライン
 - p=number of parties 
 
 - n=the number of subchannels
-<div style="text-align: right;">
+<div style="text-align: left;">
 
 
  
