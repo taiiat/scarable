@@ -8,7 +8,7 @@
 ### Introduction　
 micropayment channel networks
   
-  <img src="mpay7.png" width="400">
+  <img src="mpayA.png" width="400">
   
   
   Fundingと最後のCommitmentをBraodcast
